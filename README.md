@@ -7,13 +7,13 @@
    Navigate to client directory and install frontend dependencies using yarn
 
    ```
-   yarn install
+   npm install
    ```
 
    Similary navigate to api folder and install backend dependencies
 
    ```
-   yarn install
+   npm install
    ```
 
 3. **ENV variables:**
@@ -28,13 +28,13 @@
 
      #### DB_URL= your db url
 
-     #### JWT_SECRET= your secret (string)
+     #### JWT_SECRET= jwt secret
 
      #### JWT_EXPIRY= 20d
 
      #### COOKIE_TIME= 7
 
-     #### SESSION_SECRET= your secret session (string)
+     #### SESSION_SECRET= session secret
 
      #### CLOUDINARY_NAME= your secret session
 
@@ -47,17 +47,12 @@
 4. **Run project:**
    - Open terminal, navigate to client directory and run below command to start frontend
    ```
-       yarn run dev
+       npm run dev
    ```
    - Open another terminal, navigate to api directory and run this command to start backend server
    ```
-       yarn start
+       npm start
    ```
-
-## Features
-
-- **User Authentication:** Users can sign up, log in, and log out securely. Passwords are hashed for security.
-- **Google Login:** Users can sign up and log in using their gmail.
 
 ## Technologies Used
 
