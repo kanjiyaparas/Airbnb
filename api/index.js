@@ -39,7 +39,7 @@ app.use(express.json());
 // CORS
 app.use(
   cors({
-    origin: "https://airbnb-clone-main-eta.vercel.app/" || "*",
+    origin: "https://airbnb-clone-main-eta.vercel.app" || "*",
     credentials: true,
   })
 );
